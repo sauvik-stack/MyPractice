@@ -1,5 +1,5 @@
 /*
-Arguments can be passed either right to left or lrft to right, in case of C language, its the second one, which means the arguments are passed from right to left.
+Arguments can be passed either right to left or left to right, in case of C language, its the second one, which means the arguments are passed from right to left.
 example is given below
 */
 #include<stdio.h>
