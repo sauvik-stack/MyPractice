@@ -11,7 +11,7 @@ float marks;
 
 int main()
 {
-char n[]="harry";
+char n[]="Sauvik";
 struct student sauvik;
 sauvik.id=1205;
 sauvik.marks=88.6;
