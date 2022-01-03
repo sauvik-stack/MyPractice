@@ -71,7 +71,7 @@
 // int marksInMaths=83;
 // cout<<"The marks of the student in maths is "<<marksInMaths;
 
-// string sauvikry = "sauvikry"
+// string sauvik = "sauvik"
 // short a;
 // int b= 89;
 // long c;
