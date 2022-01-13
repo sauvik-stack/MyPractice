@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>IDs and Classes in HTML</title>
   </head>
-  <body></body>
+  <body>
+    <h3>IDs and Classes DEMO</h3>
+    <div id="mainBox" class="redbg">This is mainBox.</div>
+    <br />
+    <div>
+      <b>IDs are exclusive. </b>One item can have only One ID and One ID can be
+      assigned to only one Item. Means Each Item can have only one
+      <b>UNIQUE ID.</b>
+      <br />
+      But <b>Class is not exclusive.</b> Which means a single class can be
+      assigned to multiple Items and a single Item can also have
+      <b>Multiple Classes.</b>
+    </div>
+    <br />
+    <div>
+      For Example: <br />
+      <p>
+        &emsp; &lt;div id="mainBox" class="redbg"><br />
+        &emsp; &emsp; This is mainBox.<br />&emsp; &lt;/div&gt;<br /><br />&emsp;
+        &lt;div id="mainBox" class="redbg"><br />&emsp; &emsp; This is second
+        mainBox.<br />
+        &emsp; &lt;/div> <br /><br />&emsp;&emsp;&emsp;&emsp;&emsp; This is not
+        a valid practice.<br /><br /><br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;But<br /><br /><br />&emsp;
+        &lt;div id="mainBox1" class="redbg"><br />&emsp; &emsp; This is
+        mainBox.<br />&emsp; &lt;/div><br /><br />&emsp; &lt;div id="mainBox2"
+        class="redbg blackBorder"><br />&emsp; &emsp; This is second mainBox.<br />&emsp;
+        &lt;/div><br /><br />&emsp;&emsp;&emsp;&emsp;&emsp;These is a Valid
+        Practice.
+      </p>
+      <!-- Here we used html entities to format the page which looks very unprofessional but we have not started CSS, we should use margins, padding etc to format and style the page. But here I used Entities to have a practice. -->
+    </div>
+    <p>
+      **********IDs are generally used to Identify the item in JavaScript, which
+      is why the can not be duplicated as that would be a problem for the
+      algorithm, but the classes are used by the CSS which can be duplicated as
+      Multiple Items can have same style or a Single Item can Have Multiple
+      Styles applied to it.***********
+    </p>
+  </body>
 </html>
