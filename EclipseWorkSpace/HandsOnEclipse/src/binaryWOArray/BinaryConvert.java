@@ -1,4 +1,4 @@
-package RandomNum;
+package binaryWOArray;
 
 //import java.util.Scanner;
 
