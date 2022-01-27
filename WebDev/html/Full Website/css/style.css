@@ -1,0 +1,214 @@
+/* font imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Sedgwick+Ave&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* declaring color variables */
+
+:root {
+    --myRed: rgba(141, 0, 0, 0.952);
+    --myRedHover: rgba(141, 0, 0, 0.795);
+    --myYellow: rgb(255, 251, 0);
+}
+
+
+/* resetting user agent stylesheet */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* define overall background color and font color  */
+
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: "Barlow", sans-serif;
+}
+
+
+/* setting up header section */
+
+.header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+/* setting up header left section*/
+
+.company-details {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+
+/* setting up logo of company */
+
+.company-details img {
+    max-width: 80px;
+    padding: 5px 10px;
+}
+
+
+/* setting up name of company with refresh link */
+
+.company-details a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-family: "Sedgwick Ave", cursive;
+    color: var(--myYellow);
+}
+
+
+/* setting up the center navigation bar */
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems li {
+    margin: 10px;
+    list-style: none;
+    /* border: 2px solid red; */
+}
+
+.navItems li a {
+    margin: 5px 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 5px;
+}
+
+.navItems li a:hover {
+    padding-top: 80px;
+    color: black;
+    transition: 400ms ease;
+    background-color: var(--myYellow);
+}
+
+
+/* setting up left get in touch modal button*/
+
+.header .btn {
+    margin: 5px 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--myRed);
+    cursor: pointer;
+    color: white;
+}
+
+.header .btn:hover {
+    transition: 400ms ease-in-out;
+    background-color: var(--myRedHover);
+}
+
+
+/*end of header section styles*/
+
+
+/*beginning of the home section*/
+
+section {
+    display: flex;
+    height: 100vh;
+    width: 98.8vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home .container {
+    text-align: left;
+    line-height: 2rem;
+    padding: 3%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+#hero-text p {
+    /* border: 2px solid rgb(200, 255, 0); */
+    margin: 30px;
+    padding: 12px;
+    font-size: 20px;
+}
+
+#hero-text h1 {
+    /* border: 2px solid rgb(200, 255, 0); */
+    /* text-align: left; */
+    line-height: 3rem;
+    margin: 30px;
+    padding: 10px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+
+/*beginning of slideshow*/
+
+#slide {
+    position: relative;
+    right: 5%;
+    height: 80%;
+}
+
+.slideshow-container {
+    position: absolute;
+    border: rgb(255, 251, 0) solid 2px;
+    height: 68vh;
+    width: 33vw;
+    overflow: hidden;
+}
+
+.transform-container {
+    position: absolute;
+    width: 500%;
+    left=0;
+    display: flex;
+}
+
+.mySlides {
+    text-align: center;
+    background-color: azure;
+    color: rgb(7, 7, 7);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 35px 20px;
+}
+
+.mySlides .profile-image {
+    border: 2px solid red;
+    width: 18%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.mySlides img {
+    width: 7%;
+}
+
+.mySlides h2 {
+    margin: 5px;
+}
+
+.mySlides p {
+    margin-bottom: 10px;
+}
